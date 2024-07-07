@@ -7,12 +7,17 @@
       finest ingredients and handcrafted with the utmost care, each piece is a
       work of art that is sure to please.
     </p>
-    <button type="button" class="explore__btn" data-modal-open>
+    <button type="button" class="explore__btn js-open-menu" data-modal-open>
       Subscribe
     </button>
     <div class="backdrop is-hidden" data-modal>
-      <div class="modal">
-        <button type="button" class="btn-close" data-modal-close>
+      <div class="modal js-menu-container">
+        <button
+          type="button"
+          class="btn-close"
+          title="modal-close-button"
+          data-modal-close
+        >
           <svg width="24" height="24" class="modal-icon__link">
             <use href="./images/icons.svg#icon-close"></use>
           </svg>

@@ -147,6 +147,7 @@
   }
 }
 .reviews__input {
+  height: 91px;
   width: 263px;
   padding: 10px 0;
   border-radius: 8px;
@@ -217,7 +218,7 @@
 
   @media screen and (min-width: 768px) {
    width: 265px;
-   height: 318px; 
+   height: 318px;
   }
 }
 .second-reviews__btn--close {

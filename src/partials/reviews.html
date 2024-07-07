@@ -48,7 +48,12 @@
     </button>
   </div>
   <div class="first-reviews-modal is-hidden" data-modal>
-    <button type="button" class="first-reviews__btn--close" data-modal-close>
+    <button
+      type="button"
+      class="first-reviews__btn--close"
+      title="close-menu-button"
+      data-modal-close
+    >
       <svg width="28px" height="28px" class="reviews__icon">
         <use href="./images/icons.svg#icon-close"></use>
       </svg>
@@ -79,7 +84,6 @@
         placeholder="Phone number"
       />
       <textarea
-        style="height: 91px"
         name="text"
         id="text"
         class="reviews__input"
@@ -89,12 +93,20 @@
     </form>
   </div>
   <div class="second-reviews-modal is-hidden" data-modal2>
-    <button type="button" class="second-reviews__btn--close" data-modal-close2>
+    <button
+      type="button"
+      class="second-reviews__btn--close"
+      title="secondary-modal-menu-button"
+      data-modal-close2
+    >
       <svg width="28px" height="28px">
         <use href="./images/icons.svg#icon-close-gradient"></use>
       </svg>
     </button>
-    <h2 class="second-reviews-title">Thank you <br> for your feedback</h2>
+    <h2 class="second-reviews-title">
+      Thank you <br />
+      for your feedback
+    </h2>
     <p class="second-reviews-text">We are so happy to hear from you!</p>
     <img
       class="second-reviews-img"
